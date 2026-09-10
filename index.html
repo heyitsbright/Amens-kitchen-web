@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AMEN Kitchen is a Chennai cloud kitchen serving fresh brownies, sandwiches, personal pizzas and value combos. Order on WhatsApp."
+    />
+    <meta name="theme-color" content="#13120f" />
+    <title>AMEN Kitchen | Chennai Cloud Kitchen</title>
+    <link rel="icon" href="assets/images/amen-kitchen-logo.jpeg" type="image/jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#menu">Skip to menu</a>
+
+    <header class="site-header" data-header>
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="AMEN Kitchen home">
+          <img src="assets/images/amen-kitchen-logo.jpeg" alt="AMEN Kitchen logo" />
+          <span>
+            <strong>AMEN</strong>
+            <small>KITCHEN</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Open navigation</span>
+        </button>
+
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+          <a href="#menu">Menu</a>
+          <a href="#about">Our kitchen</a>
+          <a href="#order">How to order</a>
+          <a
+            class="nav-order"
+            href="https://wa.me/917871325014?text=Hi%20AMEN%20Kitchen!%20I%27d%20like%20to%20place%20an%20order."
+            target="_blank"
+            rel="noopener noreferrer"
+          >Order on WhatsApp <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span> Chennai cloud kitchen</p>
+            <h1>Made fresh.<br /><em>Craved often.</em></h1>
+            <p class="hero-intro">
+              Brownies with fudgy centres, loaded grilled sandwiches and personal pizzas made for one very happy appetite.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#menu">Explore the menu <span aria-hidden="true">↓</span></a>
+              <a
+                class="button button-ghost"
+                href="https://wa.me/917871325014?text=Hi%20AMEN%20Kitchen!%20I%27d%20like%20to%20place%20an%20order."
+                target="_blank"
+                rel="noopener noreferrer"
+              >WhatsApp us</a>
+            </div>
+            <ul class="hero-notes" aria-label="Menu highlights">
+              <li><strong>Freshly</strong><span>made to order</span></li>
+              <li><strong>18 picks</strong><span>savoury &amp; sweet</span></li>
+              <li><strong>From ₹79</strong><span>everyday treats</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-image-frame">
+              <img
+                src="assets/images/amen-kitchen-hero.png"
+                alt="Vegetable pizza, grilled chicken sandwich and chocolate brownie from AMEN Kitchen"
+              />
+            </div>
+            <div class="fresh-card">
+              <span class="fresh-card-mark">A</span>
+              <p><strong>Freshly made</strong><br />Great taste. Better price.</p>
+            </div>
+            <div class="hero-stamp" aria-label="Good food, brighter days">
+              <span>GOOD FOOD</span>
+              <strong>BRIGHTER<br />DAYS</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow"><span></span> Pick your favourite</p>
+              <h2>The AMEN menu</h2>
+            </div>
+            <p>Choose an item and tap “Order” to start a WhatsApp message with your selection already added.</p>
+          </div>
+
+          <nav class="category-links" aria-label="Menu categories">
+            <a href="#brownies">Brownies</a>
+            <a href="#sandwiches">Sandwiches</a>
+            <a href="#pizzas">Personal pizzas</a>
+            <a href="#combos">Value combos</a>
+          </nav>
+
+          <div class="menu-layout">
+            <section class="menu-category tone-cocoa" id="brownies">
+              <div class="category-heading">
+                <span class="category-number">01</span>
+                <div><p>Rich, chewy, irresistible</p><h3>Brownies</h3></div>
+              </div>
+              <ul class="menu-list">
+                <li><div><strong>Classic Chocolate</strong><span>The original chocolate fix</span></div><b>₹79</b><a href="#" data-order="Classic Chocolate Brownie — ₹79">Order</a></li>
+                <li><div><strong>Choco Chip</strong><span>Studded with chocolate chips</span></div><b>₹99</b><a href="#" data-order="Choco Chip Brownie — ₹99">Order</a></li>
+                <li><div><strong>Walnut</strong><span>Chocolate with a nutty crunch</span></div><b>₹99</b><a href="#" data-order="Walnut Brownie — ₹99">Order</a></li>
+                <li><div><strong>Nutella</strong><span>A richer hazelnut finish</span></div><b>₹119</b><a href="#" data-order="Nutella Brownie — ₹119">Order</a></li>
+              </ul>
+            </section>
+
+            <section class="menu-category tone-olive" id="sandwiches">
+              <div class="category-heading">
+                <span class="category-number">02</span>
+                <div><p>Grilled, filled, satisfying</p><h3>Sandwiches</h3></div>
+              </div>
+              <ul class="menu-list">
+                <li><div><strong>Classic Veg</strong><span>Fresh vegetables, grilled golden</span></div><b>₹79</b><a href="#" data-order="Classic Veg Sandwich — ₹79">Order</a></li>
+                <li><div><strong>Veg Cheese</strong><span>Classic veg with melted cheese</span></div><b>₹99</b><a href="#" data-order="Veg Cheese Sandwich — ₹99">Order</a></li>
+                <li><div><strong>Corn &amp; Cheese</strong><span>Sweet corn and creamy cheese</span></div><b>₹119</b><a href="#" data-order="Corn & Cheese Sandwich — ₹119">Order</a></li>
+                <li><div><strong>Paneer Tikka</strong><span>Spiced paneer in every layer</span></div><b>₹129</b><a href="#" data-order="Paneer Tikka Sandwich — ₹129">Order</a></li>
+                <li><div><strong>Chicken Mayo</strong><span>Creamy chicken filling</span></div><b>₹149</b><a href="#" data-order="Chicken Mayo Sandwich — ₹149">Order</a></li>
+                <li><div><strong>Peri-Peri Chicken</strong><span>A warm, spicy chicken bite</span></div><b>₹159</b><a href="#" data-order="Peri-Peri Chicken Sandwich — ₹159">Order</a></li>
+              </ul>
+            </section>
+
+            <section class="menu-category tone-tomato wide" id="pizzas">
+              <div class="category-heading">
+                <span class="category-number">03</span>
+                <div><p>Small size, big happiness</p><h3>7” Personal Pizzas</h3></div>
+              </div>
+              <ul class="menu-list menu-list-grid">
+                <li><div><strong>Margherita</strong><span>Simple, cheesy classic</span></div><b>₹89</b><a href="#" data-order="7-inch Margherita Pizza — ₹89">Order</a></li>
+                <li><div><strong>Cheese &amp; Corn</strong><span>Sweet corn under melted cheese</span></div><b>₹169</b><a href="#" data-order="7-inch Cheese & Corn Pizza — ₹169">Order</a></li>
+                <li><div><strong>Farmhouse Veg</strong><span>A colourful vegetable topping</span></div><b>₹209</b><a href="#" data-order="7-inch Farmhouse Veg Pizza — ₹209">Order</a></li>
+                <li><div><strong>Paneer Tikka</strong><span>Spiced paneer, baked cheesy</span></div><b>₹209</b><a href="#" data-order="7-inch Paneer Tikka Pizza — ₹209">Order</a></li>
+                <li><div><strong>Pepper Chicken</strong><span>Peppery chicken with melted cheese</span></div><b>₹199</b><a href="#" data-order="7-inch Pepper Chicken Pizza — ₹199">Order</a></li>
+              </ul>
+            </section>
+          </div>
+
+          <section class="combos" id="combos">
+            <div class="combos-copy">
+              <p class="eyebrow"><span></span> More to share</p>
+              <h3>Value combos</h3>
+              <p>Bring the favourites together and make snack time go further.</p>
+            </div>
+            <div class="combo-list">
+              <article><span>01</span><div><h4>Brownie + Veg Sandwich</h4><p>A savoury bite with a chocolate finish.</p></div><strong>₹149</strong><a href="#" data-order="Brownie + Veg Sandwich Combo — ₹149" aria-label="Order Brownie and Veg Sandwich combo">Order ↗</a></article>
+              <article><span>02</span><div><h4>Pizza + Brownie</h4><p>A personal pizza paired with a brownie.</p></div><strong>₹249</strong><a href="#" data-order="Pizza + Brownie Combo — ₹249" aria-label="Order Pizza and Brownie combo">Order ↗</a></article>
+              <article><span>03</span><div><h4>2 Sandwiches + 2 Brownies</h4><p>A shareable combo for two hungry people.</p></div><strong>₹399</strong><a href="#" data-order="2 Sandwiches + 2 Brownies Combo — ₹399" aria-label="Order two sandwiches and two brownies combo">Order ↗</a></article>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="container about-grid">
+          <div class="menu-poster">
+            <img src="assets/images/amen-kitchen-menu.png" alt="AMEN Kitchen complete printed menu" loading="lazy" />
+            <a href="assets/images/amen-kitchen-menu.png" target="_blank" rel="noopener noreferrer">Open full menu card <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow"><span></span> AMEN Kitchen</p>
+            <h2>Good food brings people together.</h2>
+            <p class="lead">Our menu keeps things focused: familiar favourites, generous fillings and prices that make coming back easy.</p>
+            <div class="about-values">
+              <div><strong>01</strong><h3>Freshly made</h3><p>Orders are prepared fresh, so every bite reaches you at its best.</p></div>
+              <div><strong>02</strong><h3>Made for cravings</h3><p>From gooey brownies to grilled sandwiches and cheesy pizzas.</p></div>
+              <div><strong>03</strong><h3>Easy to order</h3><p>Send your selection on WhatsApp and confirm the details directly.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="order-section" id="order">
+        <div class="container order-panel">
+          <div class="order-heading">
+            <p class="eyebrow light"><span></span> From menu to doorstep</p>
+            <h2>Craving sorted in three easy steps.</h2>
+          </div>
+          <ol class="order-steps">
+            <li><span>1</span><div><strong>Pick your favourites</strong><p>Choose from brownies, sandwiches, pizzas or combos.</p></div></li>
+            <li><span>2</span><div><strong>Message us</strong><p>Tap any order button to open WhatsApp with your item ready.</p></div></li>
+            <li><span>3</span><div><strong>Confirm your order</strong><p>We’ll confirm availability, delivery and your final order details.</p></div></li>
+          </ol>
+          <div class="order-cta">
+            <div><span>Order line</span><strong>78713 25014</strong></div>
+            <a
+              class="button button-light"
+              href="https://wa.me/917871325014?text=Hi%20AMEN%20Kitchen!%20I%27d%20like%20to%20place%20an%20order."
+              target="_blank"
+              rel="noopener noreferrer"
+            >Start a WhatsApp order <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/amen-kitchen-logo.jpeg" alt="" />
+          <div><strong>AMEN Kitchen</strong><span>Chennai cloud kitchen</span></div>
+        </div>
+        <p>Freshly made <span>•</span> Great taste <span>•</span> Better price</p>
+        <div class="footer-end">
+          <a href="https://wa.me/917871325014" target="_blank" rel="noopener noreferrer">WhatsApp: 78713 25014</a>
+          <small>© <span data-year></span> AMEN Kitchen</small>
+        </div>
+      </div>
+      <div class="container footer-credit">
+        <a href="https://elloling-india.github.io/Website/" target="_blank" rel="noopener noreferrer">
+          Made with Elloling <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </footer>
+
+    <a
+      class="mobile-order"
+      href="https://wa.me/917871325014?text=Hi%20AMEN%20Kitchen!%20I%27d%20like%20to%20place%20an%20order."
+      target="_blank"
+      rel="noopener noreferrer"
+    ><span aria-hidden="true">✦</span> Order on WhatsApp</a>
+  </body>
+</html>
